@@ -1,0 +1,12 @@
+app:
+  name: "My App"
+  description: "App template for Fitness and Health."
+
+branding:
+  primary_color: "#FFFF2E05"
+  logo_path: "assets/images/flutter_logo.png"
+
+localization:
+  default_locale: "en_US"
+  supported_locales:
+    - "en_US"
