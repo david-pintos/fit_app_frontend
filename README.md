@@ -23,8 +23,8 @@ flutter doctor
 Clone the repository and install the project dependencies:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/david-pintos/fit_app_frontend.git
+cd fit_app_frontend/
 flutter pub get
 ```
 
