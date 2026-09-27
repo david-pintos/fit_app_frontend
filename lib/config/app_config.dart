@@ -1,6 +1,17 @@
 import 'package:flutter/services.dart';
 import 'package:yaml/yaml.dart';
 
+// class AppConfig: Represents the application configuration loaded from a YAML file
+//    @appName: The name of the application
+//    @description: A brief description of the application
+//    @primaryColor: The primary color of the application, used for theming
+//    @logoPath: The path to the application's logo image
+//    @supportedLocales: A list of supported locales for localization
+//    @defaultLocale: The default locale for the application
+//
+//    This class will be used to load and store the application configuration
+//    from a YAML file, and will be accessed throughout the application to
+//    provide consistent theming, localization, and branding.
 class AppConfig {
   final String appName;
   final String description;

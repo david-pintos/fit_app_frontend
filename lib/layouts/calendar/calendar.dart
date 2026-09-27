@@ -3,6 +3,8 @@ import 'package:fit_app_frontend/layouts/calendar/calendar_view.dart';
 import 'package:flutter/material.dart';
 import 'package:fit_app_frontend/src/activity.dart';
 
+// class CalendarPage: A widget that displays a calendar view and a list of events for the selected day
+//    This widget will be used to display the calendar and events in the application.
 class CalendarPage extends StatefulWidget {
   const CalendarPage({super.key});
 
@@ -10,6 +12,7 @@ class CalendarPage extends StatefulWidget {
   State<CalendarPage> createState() => _CalendarPageState();
 }
 
+// class _CalendarPageState: The state for the CalendarPage widget
 class _CalendarPageState extends State<CalendarPage> {
   // TODO: This variables must be moved to a state management solution
   //      (like Provider, Riverpod, etc.) to manage the state of the calendar
@@ -57,6 +60,9 @@ class _CalendarPageState extends State<CalendarPage> {
     ),
   ];
 
+  // function _onDaySelected: Updates the selected date when a day is selected in the calendar
+  //    @selectedDay: The day that was selected
+  //    @focusedDay: The day that is currently focused in the calendar
   void _onDaySelected(DateTime selectedDay, DateTime focusedDay) {
     setState(() {
       selectedDate = selectedDay;

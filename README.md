@@ -149,7 +149,10 @@ fit_app_frontend/
 |     |     |---- app_config_provider.dart
 |     |
 |     |---- layouts/
-|     |     |---- calendar.dart
+|     |     |---- calendar/
+|     |     |     |---- calendar.dart
+|     |     |     |---- calendar_view.dart
+|     |     |     |---- calendar_utils.dart
 |     |     |---- layout.dart
 |     |
 |     |
