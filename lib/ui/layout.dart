@@ -39,6 +39,8 @@ class _TabsLayoutState extends State<TabsLayout> with SingleTickerProviderStateM
       ),
       bottomNavigationBar: BottomAppBar(
         color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        height: 65,
+        padding: const EdgeInsets.only(top: 5.0, bottom: 2.0),
         child: TabBar(
           dividerColor: Colors.transparent,
           controller: _tabController,
