@@ -148,16 +148,22 @@ fit_app_frontend/
 |     |     |---- app_config.dart
 |     |     |---- app_config_provider.dart
 |     |
-|     |---- layouts/
+|     |---- ui/
+|     |     |---- activities/
+|     |     |     |---- activity.dart
+|     |     |
 |     |     |---- calendar/
-|     |     |     |---- calendar.dart
-|     |     |     |---- calendar_view.dart
+|     |     |     |---- page_models/
+|     |     |     |     |---- calendar.dart
+|     |     |     |---- widgets/
+|     |     |     |     |----calendar_view.dart
 |     |     |     |---- calendar_utils.dart
+|     |     |     |---- calendar_controller.dart
+|     |     |
 |     |     |---- layout.dart
 |     |
 |     |
-|     |---- src/
-|     |     |---- activity.dart
+|     |---- utils/
 |     |     |---- utils.dart
 |     |
 |     |---- main.dart
