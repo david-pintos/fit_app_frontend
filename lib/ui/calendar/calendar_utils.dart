@@ -1,4 +1,4 @@
-import 'package:fit_app_frontend/src/activity.dart';
+import 'package:fit_app_frontend/ui/activities/activity.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 // function getEventsForDay: Returns a list of events for a given day
