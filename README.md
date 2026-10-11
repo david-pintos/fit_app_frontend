@@ -146,7 +146,14 @@ fit_app_frontend/
 |---- lib/
 |     |---- config/
 |     |     |---- app_config.dart
-|     |     |---- app_config_provider.dart
+|     |     |---- app_localization.dart
+|     |
+|     |---- auth/
+|     |     |---- models/
+|     |     |     |---- auth_controller.dart
+|     |     |     |---- roles_permissions.dart
+|     |     |     |---- user.dart
+|     |     |---- permission_builder.dart
 |     |
 |     |---- ui/
 |     |     |---- activities/
@@ -159,6 +166,10 @@ fit_app_frontend/
 |     |     |     |     |----calendar_view.dart
 |     |     |     |---- calendar_utils.dart
 |     |     |     |---- calendar_controller.dart
+|     |     |
+|     |     |---- login/
+|     |     |     |---- page_models/
+|     |     |     |     |---- login.dart
 |     |     |
 |     |     |---- layout.dart
 |     |

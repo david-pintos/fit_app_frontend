@@ -1,4 +1,4 @@
-import 'package:fit_app_frontend/config/app_config_provider.dart';
+import 'package:fit_app_frontend/config/app_config.dart';
 import 'package:fit_app_frontend/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:fit_app_frontend/ui/activities/activity.dart';
