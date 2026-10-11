@@ -1,3 +1,5 @@
+import 'package:fit_app_frontend/auth/models/roles_permissions.dart';
+import 'package:fit_app_frontend/auth/permission_builder.dart';
 import 'package:flutter/material.dart';
 
 class TabsLayout extends StatefulWidget {
@@ -45,6 +47,16 @@ class _TabsLayoutState extends State<TabsLayout> with SingleTickerProviderStateM
           dividerColor: Colors.transparent,
           controller: _tabController,
           tabs: widget.tabs,
+        ),
+      ),
+      // FloatingActionButton wrapped in PermissionBuilder only shown for activityCreate permission
+      floatingActionButton: PermissionBuilder(
+        permission: Permission.activityCreate,
+        child: FloatingActionButton(
+          onPressed: () {
+            // TODO: Define the action for the FAB here
+          },
+          child: const Icon(Icons.add),
         ),
       ),
     );
