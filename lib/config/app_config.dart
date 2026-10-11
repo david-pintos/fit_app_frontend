@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
 import 'package:yaml/yaml.dart';
 
@@ -43,4 +45,9 @@ class AppConfig {
       defaultLocale: yamlMap['localization']['default_locale'] as String,
     );
   }
+}
+
+// Extension on BuildContext to easily access the AppConfig from anywhere in the widget tree.
+extension AppConfigExtension on BuildContext {
+  AppConfig get appConfig => watch<AppConfig>();
 }
